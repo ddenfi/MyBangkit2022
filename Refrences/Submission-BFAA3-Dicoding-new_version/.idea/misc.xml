@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data Deki/MyBangkit2022/Refrences/Submission-BFAA3-Dicoding-new_version/app/src/main/res/drawable/ic_favorite_black.xml" value="0.242" />
+        <entry key="..\:/Data Deki/MyBangkit2022/Refrences/Submission-BFAA3-Dicoding-new_version/app/src/main/res/layout/activity_detail.xml" value="0.358695652173913" />
+        <entry key="..\:/Data Deki/MyBangkit2022/Refrences/Submission-BFAA3-Dicoding-new_version/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Data Deki/MyBangkit2022/Refrences/Submission-BFAA3-Dicoding-new_version/app/src/main/res/layout/activity_settings.xml" value="0.358695652173913" />
+        <entry key="..\:/Data Deki/MyBangkit2022/Refrences/Submission-BFAA3-Dicoding-new_version/app/src/main/res/menu/option_menu.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_favorite.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_favorite_black.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_favorite_white.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_language.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_research_empty.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_search_empty.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_search_failed.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_search_on.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_setting.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/drawable/ic_unfavorite.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/activity_detail.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/activity_favorite.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/activity_setting.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/activity_settings.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/activity_splash.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/backup_acitivity_detail.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/follower_fragment.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/following_fragment.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/include_list_user.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/include_main_search.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/include_tab_follow.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/layout/item_list_user.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/menu/main_menu.xml" value="0.278125" />
+        <entry key="..\:/Users/SHIELD/AndroidStudioProjects/DemoSubmissionBFAA/app/src/main/res/menu/option_menu.xml" value="0.278125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

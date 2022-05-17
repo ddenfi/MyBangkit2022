@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.raassh.dicodingstoryapp.views.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/login_fragment">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_storiesFragment"
+            app:destination="@id/storiesFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.raassh.dicodingstoryapp.views.register.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/register_fragment"/>
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="com.raassh.dicodingstoryapp.views.stories.StoriesFragment"
+        android:label="Stories"
+        tools:layout="@layout/stories_fragment">
+        <argument
+            android:name="token"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_storiesFragment_to_storyDetailFragment"
+            app:destination="@id/storyDetailFragment" />
+        <action
+            android:id="@+id/action_storiesFragment_to_newStoryFragment"
+            app:destination="@id/newStoryFragment" />
+        <action
+            android:id="@+id/action_storiesFragment_to_storiesWithMapsFragment"
+            app:destination="@id/storiesWithMapsFragment" />
+        <argument
+            android:name="newStoryAdded"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyDetailFragment"
+        android:name="com.raassh.dicodingstoryapp.views.storydetail.StoryDetailFragment"
+        android:label="Story Detail"
+        tools:layout="@layout/story_detail_fragment">
+        <argument
+            android:name="story"
+            app:argType="com.raassh.dicodingstoryapp.data.api.ListStoryItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/newStoryFragment"
+        android:name="com.raassh.dicodingstoryapp.views.newstory.NewStoryFragment"
+        android:label="new_story_fragment"
+        tools:layout="@layout/new_story_fragment" >
+        <argument
+            android:name="token"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_newStoryFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+        <action
+            android:id="@+id/action_newStoryFragment_to_storiesFragment"
+            app:destination="@id/storiesFragment"
+            app:popUpTo="@id/storiesFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.raassh.dicodingstoryapp.views.cameraview.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/storiesWithMapsFragment"
+        android:name="com.raassh.dicodingstoryapp.views.storieswithmaps.StoriesWithMapsFragment"
+        android:label="fragment_stories_with_maps"
+        tools:layout="@layout/fragment_stories_with_maps" >
+        <argument
+            android:name="token"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_storiesWithMapsFragment_to_storyDetailFragment"
+            app:destination="@id/storyDetailFragment" />
+    </fragment>
+</navigation>
