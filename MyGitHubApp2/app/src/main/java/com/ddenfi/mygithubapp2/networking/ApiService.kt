@@ -28,6 +28,4 @@ interface ApiService {
     fun getFollowingUsers(
         @Path("username") username: String?
     ): Call<ArrayList<DetailUser>>
-
-
 }

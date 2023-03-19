@@ -1,13 +1,18 @@
+import data.Classify
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
 
+data class GameDetail(
+    val id:Int,
+    val name:String? = null
+)
 
 fun main() {
-    val angka = test()
-    println(angka)
+    val listGame1 = list
 }
 
-fun test():Int{
-    return 2+3
-}
 
 
 
